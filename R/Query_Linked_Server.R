@@ -17,6 +17,7 @@
 #'
 #' @export
 Query_Linked_Server <- function(DSN, query, linked_server_name){
+  library(RODBC)
   query <- gsub("'", "''", query)
   query <- paste0("Exec ('", query, "') at [", linked_server_name, "]")
   con <- RODBC::odbcConnect(DSN)

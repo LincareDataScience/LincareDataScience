@@ -15,6 +15,7 @@
 #'
 #' @export
 Location_Hierarchy <- function(){
+  library(DBI)
   con <- DBI::dbConnect(odbc::odbc(), "RStudio")
   DBI::dbReadTable(conn = con, name = "Location_Hierarchy")
 }
