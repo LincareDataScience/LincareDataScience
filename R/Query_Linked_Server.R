@@ -8,7 +8,7 @@
 #'
 #' @return A Dataframe containing the Query Results
 #'
-#' @references RODBC
+#' @import RODBC
 #'
 #' @examples Query <- "Select * from table"
 #' Data <- Query_Linked_Server(DSN = "EDWtoIBMi",
