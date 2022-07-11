@@ -1,4 +1,3 @@
-Query_Linked_Server {
   #' Query Linked SQLServer
   #'
   #' This function queries a Linked Server within SQL Server
@@ -20,4 +19,4 @@ Query_Linked_Server {
     colnames(data) <- gsub(pattern = '\\"', "", colnames(data))
     data
   }
-}
+
