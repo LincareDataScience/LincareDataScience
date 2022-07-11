@@ -4,7 +4,7 @@
 \alias{Query_Linked_Server}
 \title{Query Linked SQLServer}
 \usage{
-Query_Linked_Server(DSN, query, linked_server_name)
+This can be used to Query the AS400/SYS38A or any other Linked Server
 }
 \arguments{
 \item{DSN}{The Data Source Name (EDW_IBMi, EDW_External)
