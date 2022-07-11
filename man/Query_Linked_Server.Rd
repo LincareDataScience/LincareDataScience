@@ -7,8 +7,7 @@
 Query_Linked_Server(DSN, query, linked_server_name)
 }
 \arguments{
-\item{DSN}{The Data Source Name (EDW_IBMi, EDW_External)
-The Data Source Name (EDW_IBMi, EDW_External)}
+\item{DSN}{The Data Source Name (EDW_IBMi, EDW_External)}
 
 \item{query}{The Query Text}
 

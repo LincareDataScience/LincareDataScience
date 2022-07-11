@@ -3,7 +3,6 @@
 #' This function queries a Linked Server within SQL Server
 #'
 #' @param DSN The Data Source Name (EDW_IBMi, EDW_External)
-#'     The Data Source Name (EDW_IBMi, EDW_External)
 #' @param query The Query Text
 #' @param linked_server_name The Name of the Linked Server (EDWtoIBMi)
 #'
