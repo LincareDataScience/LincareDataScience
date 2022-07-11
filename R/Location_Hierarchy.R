@@ -4,6 +4,8 @@
 #'
 #' @return A Dataframe
 #'
+#' @import DBI
+#'
 #' @references DBI
 #'
 #' @examples Query <- "Select * from table"
