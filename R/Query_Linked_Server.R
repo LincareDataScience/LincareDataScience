@@ -11,8 +11,6 @@
 #'
 #' @references RODBC
 #'
-#' @usage This can be used to Query the AS400/SYS38A or any other Linked Server
-#'
 #' @examples Query <- "Select * from table"
 #' Data <- Query_Linked_Server(DSN = "EDWtoIBMi",
 #'                             query = Query,
