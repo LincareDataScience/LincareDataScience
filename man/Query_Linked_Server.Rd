@@ -27,3 +27,6 @@ Data <- Query_Linked_Server(DSN = "EDWtoIBMi",
                             linked_server_name = "EDWtoIBMi")
 
 }
+\references{
+ggplot
+}
