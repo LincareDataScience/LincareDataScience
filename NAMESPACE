@@ -3,6 +3,7 @@
 export(Location_Hierarchy)
 export(Number_Format)
 export(Query_Linked_Server)
+export(test)
 importFrom(DBI,dbConnect)
 importFrom(DBI,dbReadTable)
 importFrom(RODBC,odbcConnect)
