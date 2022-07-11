@@ -25,4 +25,5 @@ Query <- "Select * from table"
 Data <- Query_Linked_Server(DSN = "EDWtoIBMi",
                             query = Query,
                             linked_server_name = "EDWtoIBMi")
+
 }

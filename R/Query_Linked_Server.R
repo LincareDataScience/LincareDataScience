@@ -13,6 +13,8 @@
 #' Data <- Query_Linked_Server(DSN = "EDWtoIBMi",
 #'                             query = Query,
 #'                             linked_server_name = "EDWtoIBMi")
+#'
+#' @importFrom ggplot
 #' @export
 Query_Linked_Server <- function(DSN, query, linked_server_name){
   query <- gsub("'", "''", query)
