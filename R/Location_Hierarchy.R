@@ -2,7 +2,9 @@
 #'
 #' Returns Lincare's Location Hierarchy
 #'
-#' @import DBI
+#' @importFrom DBI dbConnect
+#' @importFrom DBI dbReadTable
+#' @importFrom odbc odbc
 #'
 #' @return A Dataframe
 #'

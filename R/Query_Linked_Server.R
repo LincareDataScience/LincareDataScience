@@ -2,7 +2,8 @@
 #'
 #' This function queries a Linked Server within SQL Server
 #'
-#' @import RODBC
+#' @importFrom RODBC odbcConnect
+#' @importFrom RODBC sqlQuery
 #'
 #' @param DSN The Data Source Name (EDW_IBMi, EDW_External)
 #' @param query The Query Text
