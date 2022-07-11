@@ -9,12 +9,12 @@
 #'
 #' @return A Dataframe containing the Query Results
 #'
+#' @references RODBC
+#'
 #' @examples Query <- "Select * from table"
 #' Data <- Query_Linked_Server(DSN = "EDWtoIBMi",
 #'                             query = Query,
 #'                             linked_server_name = "EDWtoIBMi")
-#'
-#' @references ggplot
 #'
 #' @export
 Query_Linked_Server <- function(DSN, query, linked_server_name){
