@@ -2,7 +2,7 @@
 % Please edit documentation in R/Build_Excel_Worksheet.R
 \name{Build_Excel_Worksheet}
 \alias{Build_Excel_Worksheet}
-\title{Query Linked SQLServer}
+\title{Build Excel Worksheet}
 \usage{
 Build_Excel_Worksheet(
   SheetName,

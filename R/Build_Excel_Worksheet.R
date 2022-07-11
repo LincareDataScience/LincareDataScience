@@ -1,4 +1,4 @@
-#' Query Linked SQLServer
+#' Build Excel Worksheet
 #'
 #' This function queries a Linked Server within SQL Server
 #'
