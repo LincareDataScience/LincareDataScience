@@ -2,9 +2,9 @@
 #'
 #' Returns Lincare's Location Hierarchy
 #'
-#' @return A Dataframe
-#'
 #' @import DBI
+#'
+#' @return A Dataframe
 #'
 #' @references DBI
 #'
