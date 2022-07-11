@@ -4,7 +4,14 @@
 \alias{Build_Excel_Worksheet}
 \title{Query Linked SQLServer}
 \usage{
-Build_Excel_Worksheet(SheetName, Data, WorkBook)
+Build_Excel_Worksheet(
+  SheetName,
+  Data,
+  WorkBook,
+  CRDB_Columns = c(),
+  Numeric_Columns = c(),
+  Currency_Columns = c()
+)
 }
 \arguments{
 \item{DSN}{The Data Source Name (EDW_IBMi, EDW_External)}

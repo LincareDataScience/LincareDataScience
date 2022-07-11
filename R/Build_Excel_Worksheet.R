@@ -21,7 +21,7 @@
 #'                             linked_server_name = "EDWtoIBMi")
 #'
 #' @export
-Build_Excel_Worksheet <- function(SheetName, Data, WorkBook){
+Build_Excel_Worksheet <- function(SheetName, Data, WorkBook, CRDB_Columns = c(), Numeric_Columns = c(), Currency_Columns = c()){
   options("openxlsx.numFmt" = "0.00")
 
   openxlsx::addWorksheet(wb = WorkBook,
